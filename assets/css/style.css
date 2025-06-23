@@ -1,0 +1,181 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+a:hover { 
+    padding: 5px;
+    border-radius: 8px;
+    background-color: black; 
+    text-decoration: none;
+    color: white;
+}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: solid 1px #cdcdcd;
+}
+.main {
+    margin-bottom: 30px;
+}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    background-color: #f8f9fa;
+    font-size: 13px;
+    color: #54595d;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.anchors-nav {
+    height: 100%;
+}
+.anchors {
+  border-left: 1px solid #ccc;
+  width: 250px;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 100%;
+}
+.anchors h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.anchors li {
+    margin-top: 25px;
+}
+aside {
+  height: 100%;
+}
+.sidebar {
+  border-right: 1px solid #ccc;
+  width: 250px;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 100%;
+}
+figure {
+    text-align: center;
+}
+
+.titulos {
+            margin-top: 40px;
+}
+
+.titulos table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.titulos th, .titulos td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.titulos thead {
+    background-color: #111;
+    color: #fff;
+}
+
+.titulos tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.titulos th {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.titulos td {
+    font-size: 15px;
+}
+
+.titulos tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.titulos td:nth-child(2) {
+    text-align: center;
+}
+
+.tabela-idolos {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabela-idolos thead th {
+  background-color: #000000;
+  color: white;
+  padding: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.tabela-idolos tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.tabela-idolos tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.tabela-idolos tbody tr:hover {
+    background-color: #ededede3;
+}
+
+.tabela-idolos tbody td:nth-child(2),
+.tabela-idolos tbody td:nth-child(3) {
+  color: #000000;
+  text-align: center;
+}
+
+.idolos-gols thead th:nth-child(1),
+.idolos-gols tbody td:nth-child(1) {
+    width: 50%;
+    text-align: center;
+}
+
+.idolos-gols thead th:nth-child(2),
+.idolos-gols tbody td:nth-child(2) {
+    width: 40%;
+    text-align: center;
+}
+
